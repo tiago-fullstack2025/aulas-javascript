@@ -32,6 +32,19 @@ console.log(coisasQueGosto[6]);
 
 console.log(`Gosto muito dos artistas: ${coisasQueGosto[1]}, ${coisasQueGosto[4]} e ${coisasQueGosto[6]}.`);
 
+/* Array como MATRIZ DE 2 DIMENSÕES */
+const tecnologias = [
+    ["HTML", "CSS", "JAVASCRIPT"],
+    ["Figma", "Photoshop"],
+    ["PHP", "Node.js", "SQL", "Express"]
+];
+
+// console.log(tecnologias);
+console.log(tecnologias[0][2]); // JAVASCRIPT
+console.log(tecnologias[1][0]); // Figma
+console.log(tecnologias[2][3]); // Express
+
+
 
 
 
