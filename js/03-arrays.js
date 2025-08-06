@@ -20,6 +20,21 @@ const coisas = [10, "Senac", "<h2>Oie</h2>", seiLa, 15.88];
 console.log(coisas[1]);
 console.log(coisas[4]);
 
+/* Exercícios (FAÇA AQUI MESMO!) */
+
+// 1) Crie um array contendo o nome de 7 coisas que vc gosta (exemplos: artistas, músicas, livros, comida... sei lá, inventa!)
+let coisasQueGosto = ["Rush", "Pink Floyd", "Adele", "Deep Purple", "Slayer", "Demônios da Garoa", "Metallica"];
+
+// 2) Em seguida, mostre no console uma frase personalizada indicando o segundo, o quinto e o sétimo elemento do array. Use concatenação e/ou template string.
+console.log(coisasQueGosto[1]);
+console.log(coisasQueGosto[4]);
+console.log(coisasQueGosto[6]);
+
+console.log(`Gosto muito dos artistas: ${coisasQueGosto[1]}, ${coisasQueGosto[4]} e ${coisasQueGosto[6]}.`);
+
+
+
+
 
 
 
