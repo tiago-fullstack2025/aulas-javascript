@@ -29,3 +29,15 @@ let resultadoComparacao = a === b; // FALSE
 console.log(resultadoComparacao);
 
 
+console.log("\nExemplo ||");
+
+// || -> retorna VERDADEIRO se pelo menos uma das condições for VERDADEIRA
+let feriado = true;
+let fimDeSemana = false;
+
+// if(feriado === true || fimDeSemana === true){
+if(feriado || fimDeSemana){
+    console.log("Não tem aula!");    
+} else {
+    console.log("Tem aula!");    
+}
