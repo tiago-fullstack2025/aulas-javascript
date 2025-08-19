@@ -41,3 +41,18 @@ if(feriado || fimDeSemana){
 } else {
     console.log("Tem aula!");    
 }
+
+console.log("\nExemplo !");
+
+// ! -> Inverte a lógica. O que é TRUE, vira FALSE. O que é FALSE, vira TRUE.
+
+// Não está vigorando (false)
+let blackFriday = false;
+
+/* Aqui, ao usar ! (NEGAÇÃO), verificamos se 
+a variável NÃO É TRUE. Ou seja, INVERTEMOS a lógica. */
+if(!blackFriday){
+    console.log("Preços normais...");    
+} else {
+    console.log("Preços com descontos...");    
+}
