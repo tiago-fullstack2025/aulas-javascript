@@ -68,8 +68,26 @@ console.log(livros[2].titulo);
 - (DESAFIO: use um OBJETO nesta propriedade) Endereço contendo (separadamente):
   - rua
   - número
-  - bairro
+  - bairro */
 
-2. Mostre no console o nome do aluno, o telefone celular e o bairro em que mora. */
+const aluno = {
+    nome: "Jon Oliva",
+    nascimento: "10/10/1950",
+    telefones: ["11-2135-0300", "11-98765-4321"],
+    endereco: {
+        rua: "Rua ABC",
+        numero: "18",
+        bairro: "Penha"
+    }
+};
+
+
+/* 2. Mostre no console o nome do aluno, o telefone celular e o bairro em que mora. */
+// console.log(aluno);
+console.log(`O aluno ${aluno.nome}, cujo contato é ${aluno.telefones[1]}, mora no bairro ${aluno.endereco.bairro}.`);
+
+console.log("O aluno "+aluno.nome+", cujo contato é "+aluno.telefones[1]+", mora no bairro "+aluno.endereco.bairro+".");
+
+
 
 
