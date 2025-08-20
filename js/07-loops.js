@@ -45,6 +45,22 @@ for(const banda of bandas){
     console.log(banda);
 }
 
+console.log("\nExemplo 5: loop e objeto");
+
+const pessoa = {
+    nome: "Fulano da Silva",
+    idade: 40,
+    cidade: "São Paulo",
+    estado: "SP"
+};
+
+// Usando o loop for/in para objetos (exclusivo do JS)
+for(const dados in pessoa){
+    console.log(pessoa[dados]);    
+}
+
+
+
 
 
 
