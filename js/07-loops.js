@@ -37,6 +37,15 @@ for( let i = 0; i < bandas.length; i++ ){
     console.log( bandas[i] );    
 }
 
+console.log("\n------\n");
+
+// Usando loop for/of (exclusivo do JS)
+/* Usamos uma var/const (no caso, banda) para acessar cada elemento do array (no caso, bandas) */
+for(const banda of bandas){
+    console.log(banda);
+}
+
+
 
 
 
