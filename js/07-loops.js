@@ -16,3 +16,9 @@ while(i <= 5){
     // i = i + 1;
 }
 
+console.log("\nExemplo 2: FOR (para)");
+
+/* for( inicialização da variável; condição; atualização ) */
+for( let j = 1; j <= 10; j++ ){
+    console.log("J vale "+j);
+}
