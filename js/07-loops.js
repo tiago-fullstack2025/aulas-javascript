@@ -28,3 +28,16 @@ for( let k = 10; k >= 1; k-- ){
     console.log("K vale "+k);    
 }
 
+console.log("\nExemplo 4: loop e array");
+
+const bandas = ["Slayer", "Metallica", "Iron Maiden", "Nightwish", "Judas Priest"];
+
+// Usando loop for tradicional
+for( let i = 0; i < bandas.length; i++ ){
+    console.log( bandas[i] );    
+}
+
+
+
+
+
