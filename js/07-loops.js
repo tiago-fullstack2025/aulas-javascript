@@ -22,3 +22,9 @@ console.log("\nExemplo 2: FOR (para)");
 for( let j = 1; j <= 10; j++ ){
     console.log("J vale "+j);
 }
+
+console.log("\nExemplo 3: loop regressivo");
+for( let k = 10; k >= 1; k-- ){
+    console.log("K vale "+k);    
+}
+
