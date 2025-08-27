@@ -41,7 +41,8 @@ mensagem01.addEventListener("dblclick", function(){
 /* Exercícios
 
 1) Crie uma constante nova e selecione o h1 da sua página */
-const titulo = document.querySelector("h1");
+const titulo = document.querySelector("h1"); // Eventos
+const textoOriginal = titulo.textContent; // Eventos
 
 /* 2) Crie um evento em que, ao passar o mouse em cima do h1, o texto mude para "Praticando Eventos!" e também fique centralizado. */
 titulo.addEventListener("mouseover", function(){
@@ -60,7 +61,7 @@ titulo.addEventListener("mouseover", function(){
 const referencias = document.querySelector("#referencias");
 
 referencias.addEventListener("click", function(){
-    titulo.textContent = "Eventos";
+    titulo.textContent = textoOriginal;
     titulo.style.textAlign = "left";
 })
 
