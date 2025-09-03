@@ -74,10 +74,17 @@ botaoModoNoturno.addEventListener("click", function(){
     pagina.classList.toggle("modo-noturno");
 
     /* DESAFIOS!
-    1) Faça a mudança de cores acontecer gradualmente (use o transition!)
-    2) Se o modo noturno estiver ativado, ou seja, se a classe modo-noturno
+    1) Faça a mudança de cores acontecer gradualmente (use o transition!)*/
+    pagina.style.transition = "2s";
+
+    /* 2) Se o modo noturno estiver ativado, ou seja, se a classe modo-noturno
     estiver aplicada à página, faça o texto do botão mudar para "Desativar".
     Caso contrário, faça o texto do botão exibir "Ativar". */
+    if(pagina.classList.contains("modo-noturno")){
+        botaoModoNoturno.textContent = "Desativar";
+    } else {
+        botaoModoNoturno.textContent = "Ativar";
+    }
 });
 
 
